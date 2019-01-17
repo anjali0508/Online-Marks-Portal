@@ -1,7 +1,7 @@
 <?php
 $dbServername="localhost";
 $dbUsername="root";
-$dbPassword="";
+$dbPassword="anjali";
 $dbName="wp project";
 $conn=mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
 if (mysqli_connect_errno())
