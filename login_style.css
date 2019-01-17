@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    background: url(bmsce.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 300px;
+    height: 400px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px;
+}
+.avatar{
+    width: 100px;
+    height:100px;
+    position:absolute;
+    top:-10% ;
+    right:35%;
+}
+h1{
+    margin:0;
+    padding: 30px 30px 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: azure;
+    font-size: 16px;
+    
+}
+.loginbox input[type="submit"]
+{
+    width=50%;
+    border: none;
+    outline:none;
+    height:40px;
+    background: #3366FF;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background:green;
+    color: cornsilk;
+    
+    
+}
+.loginbox a{
+    color:white;
+    font-size: 14px;
+}

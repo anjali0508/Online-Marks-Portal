@@ -1,0 +1,113 @@
+body{
+    /*height:700px;*/
+    background : linear-gradient(#99ccff, white);
+    font-family: sans-serif;
+}
+
+
+.logo{
+    width: 130px;
+    height:130px;
+    position:absolute;
+}
+h1{
+    position:absolute;
+    margin:0;
+    padding: 30px 30px 30px;
+    font-size: 30px;
+    left: 120px;
+    border-bottom-color: cadetblue;
+    
+}
+
+input[type="submit"]{
+    border-radius: 20px;
+     height:40px;
+    font-size: 18px;
+}
+
+#viewprofile{
+    position: fixed;
+    right: 130px;
+    top: 125px;
+}
+    
+
+#logout{
+    position: fixed;
+    right: 20px;
+    top:125px;
+}
+
+button, input[type=submit]{
+    
+    background-color:white;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    font-size: 15px;
+    border-color: white;
+    border-radius: 0;
+}
+
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: Helvetica;
+    border-collapse: collapse;
+    width= 80%;
+}
+
+td, th{
+    padding: 10px;
+    text-align: left;
+}
+
+
+th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #007399;
+    color: aliceblue;
+    
+}
+
+input[type=text]{
+    /*width:10px;Do something here*/
+}
+
+
+#Back{
+    position: relative;
+    top: 105px;
+    left: 25px;
+    font-size: 20px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: right;
+    border-top-width: 3px;
+    border-top-color: black;
+}
+
+#user_input{
+    visibility: hidden;
+}
+
+#left{
+    position: relative;
+    left: 100px;
+    top: -60px;
+}
+
+.error{
+    color: red;
+}

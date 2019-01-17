@@ -1,0 +1,141 @@
+.marks_table{
+    position: relative; /*used to position button*/
+    text-align: center;
+}
+
+.marks_table button{
+    margin-top: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom ; 0;
+    vertical-align: bottom;
+    width: 150px;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid;
+    border-width: thin;
+    border-color: darkslateblue;
+    color: black;
+    font-size: 17px;
+    
+}
+
+.marks_table button:hover{
+        background-color: #C2E3EA;
+
+}
+
+.input_tab{
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.title{
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: floralwhite;
+    padding-bottom: 20px;
+    color: darkslategrey;
+}
+
+.input_tab input[type=submit]{
+    margin-top: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom : 0;
+    vertical-align: bottom;
+    width: 200px;
+    background : linear-gradient(#C2E3EA, floralwhite);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid;
+    border-width: medium;
+    border-color: #007399;
+    color: black;
+    font-size: 20px;
+    display: block;
+}
+
+.input_tab{
+    background: #C2E3EA;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #007399;
+}
+
+.input_tab table td{
+    padding: 0;
+}
+
+.input_tab input[type=submit]:hover{
+        background-color: #C2E3EA;
+}
+.input_tab input[type=text]{
+    width: 150px;
+    background-color: #C2E3EA;
+    border: none;
+    border-width: thin;
+    border-color: black;
+    margin: 0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 2px;
+    text-align: center;
+    font-size: 17px;
+    
+}
+
+#usn input[type=text]{
+    width:150px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#fixed a{
+    color: white;
+}
+
+/*
+input, textarea {
+  font-size:22px;
+  display:block;
+  width:100%;
+  height:100%;
+  padding:5px 10px;
+  background:none;
+  background-image:none;
+  border:1px solid $gray-light;
+  color:$white;
+  border-radius:0;
+  transition:border-color .25s ease, box-shadow .25s ease;
+  &:focus {
+		outline:0;
+		border-color:$main;
+  }
+}
+*/

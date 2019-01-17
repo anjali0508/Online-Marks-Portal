@@ -1,0 +1,129 @@
+body{
+    background : linear-gradient(#99ccff, floralwhite);
+    font-family: sans-serif;
+    margin: 0;
+    z-index: -5;
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+    margin-bottom: 75px;
+    border-bottom-width: 5px;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    border-bottom-style: ridge;
+    border-color: darkslategray;
+    background-color: #C2E3EA;
+    width: 100%;
+    color: darkslategray;
+}
+
+h1{
+    font-size: 40px;
+    text-align: inherit;
+}
+
+
+
+/*button{
+    background-color: floralwhite;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightsteelblue;
+    padding: 7px;
+}*/
+
+
+.marks_table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    width= 80%;
+}
+
+td, th{
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #AFEEEE;
+}
+
+th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #007399;
+    color: aliceblue;
+}
+
+
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    background-color: powderblue;
+    padding: 10px;
+    text-align: left;
+}
+
+#viewprofile{
+    border-width: 5px;
+    border-style: ridge;
+    border-color: floralwhite;
+    background: #C2E3EA;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+#viewprofile_table th, #viewprofile_table td, #viewprofile_table tr{
+    border: 0px;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    background: #C2E3EA;
+}
+
+#viewprofile_table th{
+    text-align: right;
+    padding: 15px;
+    padding-right: 30px;
+}
+
+#viewprofile_table td{
+    text-align: left;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+
+
